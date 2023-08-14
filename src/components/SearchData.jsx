@@ -5,10 +5,10 @@ function SearchData() {
     <div className='searchData'>
         <div className='searchData-name'>
             <h3>City Name</h3>
-            <p>Cloudy</p>
+            <p>Cloudy weather</p>
         </div>
 
-        
+
         
     </div>
   )
