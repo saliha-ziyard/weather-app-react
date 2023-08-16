@@ -1,0 +1,19 @@
+.title{
+    font-family: var(--font-family);
+    font-weight: 900;
+    padding-top: 20px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 14px;
+}
+.daily-item{
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    background-color: rgb(188, 208, 224);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 2px;
+}

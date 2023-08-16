@@ -1,38 +1,60 @@
 
 .weather{
-    /* display: flex;
+    
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
-    height: 90vh;
-    background-image: url('https://wallpapertag.com/wallpaper/middle/a/6/1/690651-full-size-blue-background-image-1920x1080.jpg');
+    justify-content: center;
+    height:max-content;
+    background-color: rgb(171, 204, 232);
+    background-image: url('../assets//weather.jpg');
     font-family: var(--font-family);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
     background-size: cover;
     background-position: center;
     
 }
-
+.search-icon {
+    padding-top: 50px;
+    cursor: pointer;
+}
+.icon{
+    width: 100px;
+}
 .weather-search input{
     text-align: left;
     border-radius: 10px;
     font-size: 16px;
     border: none;
+    outline: none;
     padding: 3px;
     margin: 4px;
     padding-left: 10px;
-    
+    padding: 10px;
+    margin-right:20px;
+    background-color: rgb(232, 232, 231);
+    color: black;
+    font-family: var(--font-family);
 }
-
+.weather-date-today{
+    padding-bottom: 20px;
+}
 .weather-current{
     display: flex;
     flex-direction: row;
     padding-left: 20px;
     text-align: left;
     width: 400px;
-    background-image: url('https://cdn.wallpapersafari.com/90/47/cP6Num.jpg');
+    background-image: url('../assets/weatherData.jpg');
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+}
+.weather-search-result{
+    margin-left: 40px;
 }
 .city-weather{
     display: flex;
@@ -42,5 +64,9 @@
 .weather-search-result{
     padding-left: 50px;
     text-align: left;
+}
+
+.currentocationWeather{
+    color: white;
 }
 

@@ -5,7 +5,7 @@
     align-items: center;
     height: 100vh;
     background-size: cover;
-    background-image: url('https://images.hdqwalls.com/download/blue-abstract-simple-background-qs-1920x1080.jpg');
+    background-image: url('../assets/signUpLogin.jpg');
     background-position: center;
 }
 .signup h1 {

@@ -1,6 +1,6 @@
 
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react';
+import {Route, Routes } from 'react-router-dom';
 
 import './App.css';
 import WeatherData from './pages/WeatherData';
@@ -11,9 +11,6 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
-      {/* <Login/>
-      <h1>Hello</h1>
-      <WeatherData/> */}
       <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/signup' element={<Signup/>}></Route>

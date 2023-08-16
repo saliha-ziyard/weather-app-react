@@ -6,12 +6,12 @@ import {getAuth} from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAd7FwWTqAX_bs_sS1mupNAo4MMEkZKdiY",
-  authDomain: "weather-app-react-9900d.firebaseapp.com",
-  projectId: "weather-app-react-9900d",
-  storageBucket: "weather-app-react-9900d.appspot.com",
-  messagingSenderId: "866908009769",
-  appId: "1:866908009769:web:0eba88818106b148637338"
+  apiKey: "AIzaSyApb_ScFEnEil9KmYfS9RUHZHjZ0dXHdm0",
+  authDomain: "weather-forecast-react-a2b38.firebaseapp.com",
+  projectId: "weather-forecast-react-a2b38",
+  storageBucket: "weather-forecast-react-a2b38.appspot.com",
+  messagingSenderId: "945129013157",
+  appId: "1:945129013157:web:410f138abf21812a96b24c"
 };
 
 // Initialize Firebase

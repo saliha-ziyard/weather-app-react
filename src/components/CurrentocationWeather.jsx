@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import WeatherData from '../pages/WeatherData';
 
 function CurrentocationWeather() {
 
@@ -34,9 +33,9 @@ function CurrentocationWeather() {
             <div>
                 <h2>Current Weather in {currentLocationWeather.name}</h2>
                 <p>Location: {currentLocationWeather.name}, {currentLocationWeather.sys.country}</p>
-                <p>Temperature: {currentLocationWeather.main.temp}°C</p>
+                <p>Temperature: {Math.round(currentLocationWeather.main.temp)}°C</p>
                 <p>Humidity: {currentLocationWeather.main.humidity}°C </p>
-                <p><img src={`http://openweathermap.org/img/wn/${currentLocationWeather.weather[0].icon}.png`} alt="Weather Icon" /></p>
+                <p><img src={`http://openweathermap.org/img/wn/${currentLocationWeather.weather[0].icon}.png`} alt="Weather Icon" className='icon'/></p>
 
             </div>
         ): (

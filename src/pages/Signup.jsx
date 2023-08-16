@@ -61,7 +61,7 @@ function Signup() {
           setEmail(value);
         } else if (name === 'password') {
           setPassword(value);
-        } else if(name == 'confirmPassword'){
+        } else if(name === 'confirmPassword'){
             setConfirmPassword(value);
         }
       };
@@ -123,7 +123,7 @@ function Signup() {
             </div>
             <button className='signup-submit-btn' type='submit'>Sign Up </button>
         </div>
-        <div className='have-account'><p>Already have an account? <a href='/'>Log in</a></p></div>
+        <div className='have-account'><p>Already have an an  account? <a href='/login'>Log in</a></p></div>
     </form>
 </div>
   )
