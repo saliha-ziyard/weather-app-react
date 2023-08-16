@@ -1,0 +1,58 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://images.hdqwalls.com/download/blue-abstract-simple-background-qs-1920x1080.jpg');
+    background-position: center;
+}
+.login h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+}
+
+.login .field input{
+    padding: 10px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    color: #000;
+    border: none;
+    border-radius: 12px;
+}
+.login-submit-btn{
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: var(--font-family);
+    font-size: 16px;
+
+    cursor: pointer;
+}
+.login-submit-btn:hover{
+    color: #fff;
+    background-color: #000;
+}
+.login .have-account p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.login .have-account a{
+    color: #ca7c7c;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.login .have-account a:hover{
+    color: #fff;
+}
+.login .field p{
+    color: red;
+}

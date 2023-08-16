@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.margin{
+  margin: 60px 60px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lora:wght@400;500&family=Montserrat:wght@500;600&display=swap');
+:root {
+
+  --font-family: 'Montserrat',  sans-serif;
+}

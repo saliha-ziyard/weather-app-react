@@ -36,6 +36,8 @@ function CurrentocationWeather() {
                 <p>Location: {currentLocationWeather.name}, {currentLocationWeather.sys.country}</p>
                 <p>Temperature: {currentLocationWeather.main.temp}°C</p>
                 <p>Humidity: {currentLocationWeather.main.humidity}°C </p>
+                <p><img src={`http://openweathermap.org/img/wn/${currentLocationWeather.weather[0].icon}.png`} alt="Weather Icon" /></p>
+
             </div>
         ): (
             <p>Loading weather data...</p>

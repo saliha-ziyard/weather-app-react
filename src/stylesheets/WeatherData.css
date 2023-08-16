@@ -1,0 +1,46 @@
+
+.weather{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    height: 90vh;
+    background-image: url('https://wallpapertag.com/wallpaper/middle/a/6/1/690651-full-size-blue-background-image-1920x1080.jpg');
+    font-family: var(--font-family);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.weather-search input{
+    text-align: left;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 3px;
+    margin: 4px;
+    padding-left: 10px;
+    
+}
+
+.weather-current{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    text-align: left;
+    width: 400px;
+    background-image: url('https://cdn.wallpapersafari.com/90/47/cP6Num.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.city-weather{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.weather-search-result{
+    padding-left: 50px;
+    text-align: left;
+}
+
